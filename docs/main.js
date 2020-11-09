@@ -541,7 +541,7 @@ const APP_ROUTES = [
     { path: 'buscar/:termino', component: _components_buscador_buscador_component__WEBPACK_IMPORTED_MODULE_5__["BuscadorComponent"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
-const APP_ROUTING = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(APP_ROUTES);
+const APP_ROUTING = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(APP_ROUTES, { useHash: true });
 
 
 /***/ }),
